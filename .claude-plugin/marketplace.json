@@ -1,0 +1,15 @@
+{
+  "name": "ausote",
+  "owner": {
+    "name": "PluralFusion"
+  },
+  "plugins": [
+    {
+      "name": "ausote",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "An autonomous software team for your existing project."
+    }
+  ],
+  "description": "Install the Ausote autonomous software team skill."
+}

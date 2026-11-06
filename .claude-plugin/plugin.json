@@ -1,0 +1,11 @@
+{
+  "name": "ausote",
+  "version": "0.1.0",
+  "description": "An autonomous software team for your existing project.",
+  "author": {
+    "name": "PluralFusion"
+  },
+  "homepage": "https://github.com/PluralFusion/ausote",
+  "repository": "https://github.com/PluralFusion/ausote",
+  "license": "Apache-2.0"
+}

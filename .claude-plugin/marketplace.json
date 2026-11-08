@@ -7,7 +7,7 @@
     {
       "name": "ausote",
       "source": "./",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "An autonomous software team for your existing project."
     }
   ],

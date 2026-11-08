@@ -34,7 +34,7 @@ You get a team that follows your repository's conventions, uses your existing te
 
 You need Codex or Claude Code installed, with native subagents available.
 
-> The commands below target [PluralFusion/ausote](https://github.com/PluralFusion/ausote) for installation after publication. Local installation checks have passed; GitHub installation still needs a post-publication check.
+> GitHub installation and explicit invocation were checked in clean profiles on macOS with Codex CLI 0.166.0 and Claude Code 2.1.316 on 2026-11-08, using published revision `8ce2e1d`. This is a bounded installation check; later package revisions need their own hosted check.
 
 ### Codex
 
@@ -45,7 +45,7 @@ codex plugin marketplace add PluralFusion/ausote
 codex plugin add ausote@ausote
 ```
 
-Open Codex in your project and include the skill mention `$ausote` with your task.
+Start a new Codex session in your project and include `$ausote:ausote` with your task. This is the installed plugin's qualified skill name. `$ausote` also resolved to that installation in the clean-profile check.
 
 
 ### Claude Code
@@ -56,7 +56,7 @@ Run in your terminal:
 claude plugin install ausote --marketplace PluralFusion/ausote
 ```
 
-Open Claude Code in your project and include the skill command `/ausote:ausote` with your task.
+Start a new Claude Code session in your project and include `/ausote:ausote` with your task.
 
 ## Budget mode
 
@@ -65,7 +65,7 @@ Ask for **Economy** to favor lower-resource models and reasoning effort where th
 In Codex:
 
 ```text
-$ausote Use Economy to fix duplicate rows in the CSV export.
+$ausote:ausote Use Economy to fix duplicate rows in the CSV export.
 Add a regression test and have the fix independently reviewed.
 ```
 

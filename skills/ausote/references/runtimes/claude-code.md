@@ -1,6 +1,6 @@
 # Claude Code execution
 
-Use Claude Code's native Agent tool for bounded work. Picard stays in the user's main session. No agent teams, fixed custom-agent roster, cross-provider runner, or separate orchestration service is required. This reference describes supported controls; the [qualification record](https://github.com/PluralFusion/ausote/blob/main/docs/qualification/2026-11-06-installation-claude.md) identifies what has actually been tested.
+Use Claude Code's native Agent tool for bounded work. Picard stays in the user's main session. No agent teams, fixed custom-agent roster, cross-provider runner, or separate orchestration service is required. GitHub installation and explicit skill loading were checked on macOS with Claude Code 2.1.316 on 2026-11-08, using published revision `8ce2e1d`. Bounded Python fixtures also exercised read-only investigation, authorized fixes, native independent review and a same-session follow-up. These observations do not qualify other projects or runtime versions.
 
 ## Delegation and handoff
 

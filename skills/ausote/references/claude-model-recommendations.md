@@ -1,6 +1,6 @@
 # Claude Code model recommendations
 
-Assessed 2026-11-05 from Anthropic documentation for Haiku 5.5, Sonnet 5.5, and Opus 5.5. Use this table to propose assignments in Claude Code. The profiles cover the same work as the [Codex recommendations](model-recommendations.md). Cross-provider quality and actual spending remain unmeasured. Bounded native execution evidence is tracked in the [Claude qualification record](https://github.com/PluralFusion/ausote/blob/main/docs/qualification/2026-11-06-installation-claude.md).
+Assessed 2026-11-05 from Anthropic documentation for Haiku 5.5, Sonnet 5.5, and Opus 5.5. Use this table to propose assignments in Claude Code. The profiles cover the same work as the [Codex recommendations](model-recommendations.md). Cross-provider quality and actual spending remain unmeasured. The [runtime reference](runtimes/claude-code.md) states the bounded native qualification scope; it does not establish comparative quality or savings for these recommendations.
 
 | Assignment | Standard (default) | Economy |
 | --- | --- | --- |
